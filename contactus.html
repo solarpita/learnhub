@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#dee4eb;
+}
+.navbar{
+    background:#3498db;
+    color:#fff;
+    padding:15px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.menu a{
+    color:#fff;
+    text-decoration:none;
+    margin-left:20px;
+}
+
+.menu .active{
+    background:rgba(255,255,255,0.2);
+    padding:6px 12px;
+    border-radius:4px;
+}
+.container{
+    display:flex;
+    gap:30px;
+    padding:40px;
+    max-width:1100px;
+    margin:auto;
+}
+.card{
+    background:#fff;
+    flex:1;
+    padding:25px;
+    border-radius:8px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.card h2{
+    margin-bottom:10px;
+}
+
+.subtext{
+    font-size:14px;
+    color:#555;
+    margin-bottom:20px;
+}
+.info-box{
+    background:#dee4eb;;
+    padding:15px;
+    border-radius:6px;
+    margin-bottom:15px;
+}
+
+.info-box h4{
+    font-size:15px;
+    margin-bottom:5px;
+}
+label{
+    display:block;
+    margin-top:15px;
+    font-size:14px;
+}
+
+input, select, textarea{
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+    border-radius:5px;
+    border:1px solid #a09f9f;
+}
+
+textarea{
+    height:90px;
+    resize:none;
+}
+button{
+    margin-top:20px;
+    width:100%;
+    padding:12px;
+    border:none;
+    background:#3498db;
+    color:#fff;
+    font-size:15px;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#2d85c8;
+}
+
+.footer{
+    background:#2c3e50;
+    color:#fff;
+    text-align:center;
+    padding:15px;
+    font-size:13px;
+}
+</style>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact | LearnHub</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+
+<div class="navbar">
+    <div class="logo">&#128214; LearnHub</div>
+    <div class="menu">
+        <nav>
+        <a href="index.html">Home</a>
+        <a href="course.html">Courses</a>
+        <a href="enrolment.html">Enroll</a>
+        <a href="contactus.html">Contactus</a>
+    </nav>
+    </div>
+</div>
+
+
+<div class="container">
+
+    <div class="card">
+        <h2>Get In Touch</h2>
+        <p class="subtext">
+            Have questions? We'd love to hear from you. Send us a message
+            and we'll respond as soon as possible.
+        </p>
+
+        <div class="info-box">
+            <h4>&#128233; Email</h4>
+            <p>info@learnhub.com</p>
+            <p>support@learnhub.com</p>
+        </div>
+
+        <div class="info-box">
+            <h4>&#128222; Phone</h4>
+            <p>+91 1234567890</p>
+            <p>Mon–Fri: 9:00 AM – 6:00 PM</p>
+        </div>
+
+        <div class="info-box">
+            <h4>&#128205; Address</h4>
+            <p>123 Education Street</p>
+            <p>Bangalore, Karnataka 560001</p>
+        </div>
+
+        <div class="info-box">
+            <h4>&#9200;Business Hours</h4>
+            <p>Monday – Friday: 9:00 AM – 6:00 PM</p>
+            <p>Saturday: 10:00 AM – 4:00 PM</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>Send Us a Message</h2>
+
+        <form>
+            <label>Your Name</label>
+            <input type="text" placeholder="Enter your name"><br><br>
+
+            <label>Your Email</label>
+            <input type="email" placeholder="Enter your email"><br><br>
+
+            <label>Subject</label>
+            <select>
+                <option>Select a subject</option>
+                <option>Course Inquiry</option>
+                <option>Technical Support</option>
+                <option>Feedback</option>
+            </select><br><br>
+
+            <label>Message</label>
+            <textarea placeholder="Write your message here..."></textarea><br><br>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+</div>
+
+<div class="footer">
+    © 2024 LearnHub. All rights reserved.<br>
+    Email: info@learnhub.com | Phone: +91 1234567890
+</div>
+
+</body>
+</html>
+</body>
+</html>
