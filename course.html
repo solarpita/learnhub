@@ -1,0 +1,252 @@
+!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<style>
+
+
+body{
+    background:#f5f7fb;
+}
+
+.navbar{
+    background:#3b95d6;
+    color:#fff;
+    padding:15px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:22px;
+    font-weight:bold;
+}
+
+.navbar ul{
+    list-style:none;
+    display:flex;
+    gap:30px;
+}
+
+.navbar ul li{
+    cursor:pointer;
+}
+.title-box{
+    background:#3b95d6;
+    margin:30px 40px;
+    padding:35px;
+    text-align:center;
+    color:#fff;
+    border-radius:8px;
+}
+
+.title-box h1{
+    margin-bottom:8px;
+}
+
+.courses{
+    display:flex;
+    flex-wrap:wrap;
+    gap:25px;
+    padding:0 40px 40px;
+    justify-content:center;
+}
+
+.card{
+    width:320px;
+    background:#fff;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 6px 15px rgba(0,0,0,0.12);
+    display:flex;
+    flex-direction:column;
+}
+
+.card-top{
+    height:150px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:42px;
+}
+
+.c1{background:linear-gradient(135deg,#6a5acd,#8a7cff);}
+.c2{background:linear-gradient(135deg,#ff5fa2,#ff85b8);}
+.c3{background:linear-gradient(135deg,#2bc0e4,#1e90ff);}
+.c4{background:linear-gradient(135deg,#ff9a44,#ff5e62);}
+.c5{background:linear-gradient(135deg,#11998e,#38ef7d);}
+.c6{background:linear-gradient(135deg,#c471ed,#f64f59);}
+
+.card-body{
+    padding:18px;
+    flex:1;
+}
+
+.category{
+    font-size:12px;
+    color:#3b95d6;
+    font-weight:bold;
+}
+.card-body h3{
+    margin:8px 0;
+    font-size:17px;
+}
+
+.card-body p{
+    font-size:14px;
+    color:#555;
+}
+
+
+.info{
+    display:flex;
+    justify-content:space-between;
+    margin:15px 0;
+    font-size:14px;
+}
+
+.price{
+    color:#2ecc71;
+    font-weight:bold;
+}
+
+.enroll{
+    background:#3b95d6;
+    color:#fff;
+    border:none;
+    padding:10px;
+    width:100%;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.enroll:hover{
+    background:#2b7cb4;
+}
+
+.footer{
+    background:#2c3e50;
+    color:#fff;
+    text-align:center;
+    padding:20px;
+}
+</style>
+<body>
+    
+<div class="navbar">
+    <div class="logo">&#128218; LearnHub</div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="course.html">Courses</a>
+        <a href="enrolment.html">Enroll</a>
+        <a href="contactus.html">Contactus</a>
+    </nav>
+</div>
+
+<div class="title-box">
+    <h1>Available Courses</h1>
+    <p>Choose the right course to upgrade your skills</p>
+</div>
+
+
+<div class="courses">
+
+    <div class="card">
+        <div class="card-top c1">&#128187;</div>
+        <div class="card-body">
+            <span class="category">Web Development</span>
+            <h3>Complete Web Development Course</h3>
+            <p>Learn HTML, CSS, JavaScript, and modern frameworks.</p>
+            <div class="info">
+                <span>8 weeks</span>
+                <span class="price">&#8377;2,999</span>
+            </div>
+            <button class="enroll">Enroll Now</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-top c2">&#128013;</div>
+        <div class="card-body">
+            <span class="category">Programming</span>
+            <h3>Python Programming Masterclass</h3>
+            <p>From Python basics to advanced concepts.</p>
+            <div class="info">
+                <span>8 weeks</span>
+                <span class="price">&#8377;2,499</span>
+            </div>
+            <button class="enroll">Enroll Now</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-top c3">&#129514;</div>
+        <div class="card-body">
+            <span class="category">Data Science</span>
+            <h3>Data Science Fundamentals</h3>
+            <p>Data analysis, visualization and ML basics.</p>
+            <div class="info">
+                <span>10 weeks</span>
+                <span class="price">&#8377;3,499</span>
+            </div>
+            <button class="enroll">Enroll Now</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-top c4">&#128241;</div>
+        <div class="card-body">
+            <span class="category">Mobile Development</span>
+            <h3>Mobile App Development</h3>
+            <p>Build Android and iOS apps using React Native.</p>
+            <div class="info">
+                <span>12 weeks</span>
+                <span class="price">&#8377;3,999</span>
+            </div>
+            <button class="enroll">Enroll Now</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-top c5">&#127912;</div>
+        <div class="card-body">
+            <span class="category">Design</span>
+            <h3>UI/UX Design Complete Course</h3>
+            <p>Learn UI & UX design principles.</p>
+            <div class="info">
+                <span>8 weeks</span>
+                <span class="price">&#8377;2,799</span>
+            </div>
+            <button class="enroll">Enroll Now</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-top c6">&#129302</div>
+        <div class="card-body">
+            <span class="category">AI & ML</span>
+            <h3>Artificial Intelligence Basics</h3>
+            <p>Introduction to AI, ML, and neural networks.</p>
+            <div class="info">
+                <span>10 weeks</span>
+                <span class="price">&#8377;4,499</span>                                                                          
+            </div>
+            <button class="enroll">Enroll Now</button>
+        </div>
+    </div>
+
+</div>
+
+<div class="footer">
+    © 2024 LearnHub. All rights reserved <br>
+    Email: info@learnhub.com | Phone: +91 1234567890
+</div>
+</body>
+</html>
