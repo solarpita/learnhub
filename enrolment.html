@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f6f8;
+}
+
+
+.top-bar {
+    background: #3498db;
+    color: #fff;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-bar nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.top-bar nav a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.form-box {
+    background: #fff;
+    width: 420px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+.form-title {
+    background: #3498db;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.section {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.section h3 {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    resize: none;
+    height: 70px;
+}
+.radio-group{
+    margin: 15px;
+}
+.checkbox
+{
+    margin: 15px 0;
+    font-size: 13px;
+    padding: 0%;
+}
+
+
+
+button {
+    width: 100%;
+    background: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2c80b4;
+}
+
+
+footer {
+    background:#2c3e50;
+    color:#fff;
+    text-align:center;
+    padding:20px;
+    font-size: 13px;
+    
+}
+</style>
+<body>
+<header class="top-bar">
+    <div class="logo">&#128216; LearnHub</div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="course.html">Courses</a>
+        <a href="enrolment.html">Enroll</a>
+        <a href="contactus.html">Contactus</a>
+    </nav>
+</header>
+<div class="container">
+    <div class="form-box">
+        <div class="form-title">
+            <h2>Course Enrollment</h2>
+            <p>Please fill the form to enroll</p>
+        </div>
+
+        <form>
+        
+            <div class="section">
+                <h3>&#128100; Personal Information</h3>
+
+                <label>Full Name</label>
+                <input type="text" placeholder="Enter your full name"><br><br>
+
+                <label>Email Address</label>
+                <input type="email" placeholder="Enter your email"><br><br>
+
+                <label>Phone Number</label>
+                <input type="tel" placeholder="+91 1234567890"><br><br>
+
+                <label>Date of Birth</label>
+                <input type="date"><br><br>
+            </div>
+
+            
+            <div class="section">
+                <h3>&#127891;Education Background</h3>
+
+                <label>Highest Qualification</label>
+                <select>
+                    <option>Select your qualification</option>
+                    <option>10th</option>
+                    <option>12th</option>
+                    <option>Diploma</option>
+                    <option>Graduate</option>
+                    <option>Post Graduate</option>
+                </select><br><br>
+                <div class="box">
+                <label> do you have any programming experience?</label>
+                <div class="radio-group">
+                
+                <input type="radio" name="answer" value="yes">yes
+                <input type="radio" name="answer" value="No">No 
+                            
+                    </div>
+                </div>
+            
+
+            <div class="section">
+                <h3>&#128218; Course Selection</h3>
+
+                <label>Select Course</label>
+                <select>
+                    <option>Choose a course</option>
+                    <option>Web Development</option>
+                    <option>Python</option>
+                    <option>Java</option>
+                    <option>Data Science</option>
+                </select><br><br>
+
+                <label>Why do you want to take this course?</label>
+                <textarea placeholder="Tell us about your goals"></textarea>
+            </div><br><br>
+
+            <div class="box">
+                <p>&#11036; I agree to the Terms & Conditions and Privacy Policy<p>  <br>
+            </div>
+            <button type="submit">Complete Enrollment</button>
+        </form>
+    </div>
+</div>
+
+<footer>
+    © 2024 LearnHub. All rights reserved.<br>
+    Email: info@learnhub.com | Phone: +91 1234567890
+</footer>
+
+</body>
+</html>
